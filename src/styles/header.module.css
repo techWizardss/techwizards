@@ -1,0 +1,58 @@
+/* header styles */
+
+.container {
+  background-color: #fffffff2;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  justify-content: space-around;
+  /* background-color: blueviolet; */
+  align-items: center;
+}
+
+.logoContainer {
+  /* background-color: green; */
+}
+
+.linksContainer {
+  /* width:500px; */
+  /* background-color: green; */
+  /* height: 20; */
+}
+.buttonStyles {
+  border: none;
+  /* font-family: 'Poppins'; */
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: bold;
+  font-size: 23px;
+  margin-right: 50px;
+  background: none;
+  text-transform: capitalize;
+  color: #1E1E1E;
+  /* line-height: 30; */
+  /* letter-spacing: 0.6px; */
+
+
+  /* line-height: 1.5; */
+
+}
+
+.contactContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 80px;
+}
+
+.contactTextSyles {
+  font-weight: bold;
+  color: #ed6446;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-left: 8px;
+  font-family: 'Poppins', sans-serif
+}
