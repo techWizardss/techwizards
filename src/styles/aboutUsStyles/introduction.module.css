@@ -5,13 +5,14 @@
   flex-direction: row;
   overflow-x: hidden;
   background-color: #fffffff2;
+  margin-top: 70px;
 }
 
 .imageContainer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 20px;
+  /* margin-bottom: 30px; */
 }
 
 .content {

@@ -2,9 +2,15 @@
 
 .container {
   background-color: #fffffff2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 .mainContainer {
+  /* position: fixed; */
   display: flex;
   flex-direction: row;
   height: 80px;
