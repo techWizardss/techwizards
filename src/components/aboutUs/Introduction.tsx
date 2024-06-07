@@ -20,7 +20,7 @@ export default function AboutUs() {
     <div className={styles.container}>
       <div className={styles.imageContainer}>
         <Image
-          src={`${basePath}/rightSvg.png`}
+          src={`${basePath}/rightsvg.png`}
           alt='.'
           height={706}
           width={601}
