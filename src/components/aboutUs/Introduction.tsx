@@ -14,11 +14,13 @@ const poppins = Poppins({
 });
 
 export default function AboutUs() {
+  const env = 'Production';
+  const basePath = env === 'Production' ? '/techwizards' : '';
   return (
     <div className={styles.container}>
       <div className={styles.imageContainer}>
         <Image
-          src={"/rightSvg.png"}
+          src={`${basePath}/rightSvg.png`}
           alt='.'
           height={706}
           width={601}
@@ -45,14 +47,14 @@ export default function AboutUs() {
       </div>
       <div className={styles.rightImagesContainer}>
         <Image
-          src={"/leftSvg.png"}
+          src={`${basePath}/leftSvg.png`}
           alt='.'
           width={721}
           height={710}
         />
         <div className={styles.bottomImageContainer}>
           <Image
-            src={"/services.png"}
+            src={`${basePath}/services.png`}
             alt='.'
             width={780}
             height={603}

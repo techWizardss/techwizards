@@ -4,13 +4,15 @@ import React from "react";
 import Image from "next/image";
 import styles from "../../styles/header.module.css";
 const Header = () => {
+  const env = 'Production';
+  const basePath = env === 'Production' ? '/techwizards' : '';
   return (
     <header className={styles.container}>
       <nav>
         <div className={styles.mainContainer}>
           <div className={styles.logoContainer}>
             <Image
-              src="/TECHWIZARDS.png"
+              src={`${basePath}/TECHWIZARDS.png`}
               alt='TECHWIZARDS'
               width={180}
               height={20}
@@ -29,7 +31,7 @@ const Header = () => {
           </div>
           <div className={styles.contactContainer}>
             <Image
-              src={"/calllcon.png"}
+              src={`${basePath}/calllcon.png`}
               alt='icon'
               width={16}
               height={16}
