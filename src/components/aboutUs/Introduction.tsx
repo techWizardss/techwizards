@@ -19,6 +19,7 @@ export default function AboutUs() {
       <div className={styles.imageContainer}>
         <Image
           src={"/rightSvg.png"}
+          alt='.'
           height={706}
           width={601}
           objectFit="contain"
@@ -47,6 +48,7 @@ export default function AboutUs() {
       <div className={styles.rightImagesContainer}>
         <Image
           src={"/leftSvg.png"}
+          alt='.'
           width={721}
           height={710}
           objectFit="contain"
@@ -55,6 +57,7 @@ export default function AboutUs() {
         <div className={styles.bottomImageContainer}>
           <Image
             src={"/services.png"}
+            alt='.'
             width={780}
             height={603}
             objectFit="contain"

@@ -10,6 +10,7 @@ const Header = () => {
           <div className={styles.logoContainer}>
             <Image
               src="/TECHWIZARDS.png"
+              alt='TECHWIZARDS'
               width={180}
               height={20}
               objectFit="contain"
