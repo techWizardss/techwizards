@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
@@ -13,8 +14,6 @@ const Header = () => {
               alt='TECHWIZARDS'
               width={180}
               height={20}
-              objectFit="contain"
-              objectPosition="center"
             />
           </div>
           <div className={styles.linksContainer}>
@@ -34,8 +33,6 @@ const Header = () => {
               alt='icon'
               width={16}
               height={16}
-              objectFit="contain"
-              objectPosition="center"
             />
             <span className={styles.contactTextSyles}>contact</span>
           </div>

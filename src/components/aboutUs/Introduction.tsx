@@ -22,8 +22,6 @@ export default function AboutUs() {
           alt='.'
           height={706}
           width={601}
-          objectFit="contain"
-          objectPosition="center"
         />
         <div className={`${styles.content} ${lalezar.className}`}>
           <p className={styles.introHeader}>
@@ -51,8 +49,6 @@ export default function AboutUs() {
           alt='.'
           width={721}
           height={710}
-          objectFit="contain"
-          objectPosition="center"
         />
         <div className={styles.bottomImageContainer}>
           <Image
@@ -60,8 +56,6 @@ export default function AboutUs() {
             alt='.'
             width={780}
             height={603}
-            objectFit="contain"
-            objectPosition="center"
           />
         </div>
       </div>
