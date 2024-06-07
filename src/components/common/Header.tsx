@@ -31,6 +31,7 @@ const Header = () => {
           <div className={styles.contactContainer}>
             <Image
               src={"/calllcon.png"}
+              alt='icon'
               width={16}
               height={16}
               objectFit="contain"
