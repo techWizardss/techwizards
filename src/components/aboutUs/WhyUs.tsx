@@ -17,35 +17,41 @@ const poppins = Poppins({
 
 export default function WhyUs() {
   const env = 'Production';
-  const basePath = env === 'Production' ? '/techwizards' : ''
-
+  const basePath = env === 'Production' ? '/techwizards' : '';
+  const reactangeBackground = '/';
   const data = [
     {
+      backgroundUrl:'/rectangle.png',
       imageUrl: '/qualityService.png',
       header: 'Quality Service',
       content: 'We believe in delivering quality products and services to our customers worldwide. That is what we are best known for'
     },
     {
+      backgroundUrl: '/rectangle.png',
       imageUrl: '/talentedProfessional.png',
       header: 'Talented Personnel',
       content: 'We offer instant access to a talented workforce that is better equipped for handling your design and development.'
     },
     {
+      backgroundUrl: '/rectangle.png',
       imageUrl: '/quickDelivery.png',
       header: 'Quick Delivery',
       content: `We understand the importance of our client's time. Hence, we take care that our projects meet the set deadline of your needs.`
     },
     {
+      backgroundUrl: '/rectangle.png',
       imageUrl: '/transportationServices.png',
       header: 'Transparent Services',
       content: 'To better engage with our customers, we provide a very transparent process that the client can understand and work.'
     },
     {
+      backgroundUrl: '/rectangle.png',
       imageUrl: '/fixedPrices.png',
       header: 'Fixed Price',
       content: 'We know the value of hard-earned money. So, we provide a very clear billing system that does not leave you confused and negotiating.'
     },
     {
+      backgroundUrl: '/rectangle.png',
       imageUrl: '/ongoingServices.png',
       header: 'Ongoing Support',
       content: 'We are always ready to support and help you with your problems so that you can have an incredibly smooth experience.'
@@ -64,7 +70,7 @@ export default function WhyUs() {
           <div className={`${styles.listContainer} `}>
             <div>
               <Image
-                src={`${basePath}/rectangle.png`}
+                src={`${basePath}${item.backgroundUrl}`}
                 alt='.'
                 width={154}
                 height={166}
@@ -79,7 +85,7 @@ export default function WhyUs() {
               />
             </div>
             <Image
-              src={`${basePath}/rectangle.png`}
+              src={`${basePath}${item.backgroundUrl}`}
               alt="."
               width={154}
               height={166}
@@ -88,9 +94,7 @@ export default function WhyUs() {
             <div className={styles.contentContainer} style={{zIndex:100}}>
               <div className={`${styles.headerTextStyles} ${poppins.className}`}>{item.header}</div>
               <div className={`${styles.cardContentTextStyles} ${poppins.className}`}>{item.content}</div>
-            
             </div>
-
           </div>
         ))}
       </div>
@@ -100,7 +104,7 @@ export default function WhyUs() {
         <div className={styles.middleListContainer}>
           <div>
             <Image
-              src={`${basePath}/rectangle.png`}
+              src={`${basePath}${data[2].backgroundUrl}`}
               alt="."
               width={154}
               height={166}
@@ -115,7 +119,7 @@ export default function WhyUs() {
             />
           </div>
           <Image
-            src={`${basePath}/rectangle.png`}
+            src={`${basePath}${data[2].backgroundUrl}`}
             alt="."
             width={154}
             height={166}
@@ -144,7 +148,7 @@ export default function WhyUs() {
         <div className={styles.middleListContainer}>
           <div>
             <Image
-              src={`${basePath}/rectangle.png`}
+              src={`${basePath}${data[3].backgroundUrl}`}
               alt="."
               width={154}
               height={166}
@@ -159,7 +163,7 @@ export default function WhyUs() {
             />
           </div>
           <Image
-            src={`${basePath}/rectangle.png`}
+            src={`${basePath}${data[3].backgroundUrl}`}
             alt="."
             width={154}
             height={166}
@@ -183,7 +187,7 @@ export default function WhyUs() {
           <div className={`${styles.listContainer} `}>
             <div>
               <Image
-                src={`${basePath}/rectangle.png`}
+                src={`${basePath}${item.backgroundUrl}`}
                 alt='.'
                 width={154}
                 height={166}
@@ -198,7 +202,7 @@ export default function WhyUs() {
               />
             </div>
             <Image
-              src={`${basePath}/rectangle.png`}
+              src={`${basePath}${item.backgroundUrl}`}
               alt="."
               width={154}
               height={166}
