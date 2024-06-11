@@ -48,7 +48,7 @@ export default function ServicesWeOffer() {
     },
   ])
 
-  const handleCardClick = (index) => {
+  const handleCardClick = (index:number) => {
     const newsCards = [...cards];
     const temp = newsCards[1];
     newsCards[1] = newsCards[index]
