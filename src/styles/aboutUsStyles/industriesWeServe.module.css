@@ -6,6 +6,7 @@
   font-size: 62px;
   align-items: center;
   margin-top: 120px;
+overflow-x: hidden;
   /* opacity: 0.2; */
   /* height: 800px; */
 }
@@ -45,6 +46,11 @@
   color: #5c6671;
   line-height: 60px;
   position: relative;
+}
+
+.imageBox:hover{
+  color: #ED6446;
+  transform: scale(1.1);
 }
 
 .imageBox::before {

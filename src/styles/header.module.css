@@ -7,6 +7,7 @@
   left: 0;
   width: 100%;
   z-index: 1000;
+overflow-x: hidden;
 }
 
 .mainContainer {
@@ -44,6 +45,10 @@
   /* letter-spacing: 0.6px; */
 
   /* line-height: 1.5; */
+}
+
+.buttonStyles:hover{
+  color: #ED6446;
 }
 
 .contactContainer {
