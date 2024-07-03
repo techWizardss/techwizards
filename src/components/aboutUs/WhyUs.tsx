@@ -1,4 +1,4 @@
-
+'use client'
 import Image from 'next/image';
 import { Lalezar, Poppins } from 'next/font/google';
 import styles from '../../styles/aboutUsStyles/whyUs.module.css';
@@ -157,16 +157,16 @@ export default function WhyUs() {
             <Image
               src={`${basePath}${data[3].imageUrl}`}
               alt="."
-              width={150}
               height={120}
+              width={150}
               className={styles.middleImageStyles}
             />
           </div>
           <Image
             src={`${basePath}${data[3].backgroundUrl}`}
             alt="."
-            width={154}
             height={166}
+            width={154}
             style={{ position: 'absolute', zIndex: 0, right: 20 }}
           />
           <div className={styles.contentContainer} style={{zIndex:100}}>
@@ -196,16 +196,16 @@ export default function WhyUs() {
               <Image
                 src={`${basePath}${item.imageUrl}`}
                 alt='.'
-                width={150}
                 height={120}
+                width={150}
                 className={styles.imageStlyes}
               />
             </div>
             <Image
               src={`${basePath}${item.backgroundUrl}`}
               alt="."
-              width={154}
               height={166}
+              width={154}
               style={{ position: 'absolute', zIndex: 0, right: 20 }}
             />
             <div className={styles.contentContainer} style={{zIndex:100}}>

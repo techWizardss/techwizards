@@ -13,8 +13,10 @@ const lalezar = Lalezar({
 })
 
 export default function OurApproach() {
+  // const env = 'Production';
+  // const basePath = env === 'Production' ? '/techwizards' : ''
   const env = 'Production';
-  const basePath = env === 'Production' ? '/techwizards' : ''
+  const basePath = env === 'Production' ? '/techwizards' : '';
   const imageUrls = [
     'approach1.png',
     'approach2.png',
@@ -51,9 +53,9 @@ export default function OurApproach() {
           <div className={styles.vectorBackgroundContainer}>
             <Image
               src={`${basePath}/approachBackground.png`}
-              width={480}
-              height={680}
               alt='.'
+              height={680}
+              width={480}
             />
             <Image
               src={`${basePath}/approach.png`}
@@ -67,9 +69,9 @@ export default function OurApproach() {
             {imageUrls.map((item, index) => (
               <Image
                 src={`${basePath}/${item}`}
-                width={150}
-                height={188}
                 alt='.'
+                height={188}
+                width={150}
               />
             ))}
           </div>
