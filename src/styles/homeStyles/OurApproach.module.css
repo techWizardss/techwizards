@@ -1,0 +1,65 @@
+.container {
+}
+
+.leftImageContainer {
+  /* position: relative; */
+}
+
+.vectorBackgroundContainer {
+  position: relative;
+}
+
+.rightSideContainer {
+  margin-left: 60px;
+}
+
+.contentContainer {
+  border: 1px solid #ff0e0e;
+  width: 660px;
+  height: 180px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 100px;
+  margin-bottom: 30px;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+  /* align-items: center; */
+}
+
+.contentContainer:hover {
+  background-color: #ed6446;
+  color: white;
+  border: none;
+}
+
+.stepsTextStyles {
+  font-family: Arial;
+  font-size: 18px;
+  color: #585c60;
+  text-transform: uppercase;
+  transform: color 0.3s ease;
+}
+
+.stepsHeaderTextStyles {
+  font-size: 24px;
+  color: #22354f;
+  line-height: 36px;
+  transform: color 0.3s ease;
+}
+
+.stepsContentTextStyles {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 6%;
+  color: #6c7782;
+  transform: color 0.3s ease;
+}
+
+.stepsTextStyles:hover,
+.stepsHeaderTextStyles:hover,
+.stepsContentTextStyles:hover {
+  color: white;
+}

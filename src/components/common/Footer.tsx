@@ -1,3 +1,4 @@
+'use client'
 import Image from 'next/image';
 import styles from '../../styles/footer.module.css';
 import { Lalezar, Poppins } from 'next/font/google';
@@ -73,7 +74,7 @@ const Footer = () => {
           ))}
         </div>
         <div className={styles.borderContainer} />
-        <div className={poppins.className} style={{ display: 'flex', flexDirection: 'row', color: '#C7D8E7', fontSize: 28, fontWeight: '600', width: '100%', justifyContent: 'space-evenly', alignItems: 'center',marginTop:20  }}>
+        <div className={poppins.className} style={{ display: 'flex', flexDirection: 'row', color: '#C7D8E7', fontSize: 28, fontWeight: '600', width: '100%', justifyContent: 'space-evenly', alignItems: 'center', marginTop: 20 }}>
           {
             FooterSections.map((item, index) => (
               <div>

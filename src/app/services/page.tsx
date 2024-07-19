@@ -1,5 +1,8 @@
+import Content from '@/components/services/content'
 const Services = () => {
-  return <div>servies page</div>
+  return (
+    <Content />
+  )
 }
 
 export default Services

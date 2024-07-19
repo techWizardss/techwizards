@@ -1,11 +1,15 @@
-
+'use client'
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import styles from "../../styles/header.module.css";
+import { useRouter } from 'next/navigation';
+
 const Header = () => {
   const env = 'Production';
   const basePath = env === 'Production' ? '/techwizards' : '';
+  const router = useRouter();
+
   return (
     <header className={styles.container}>
       <nav>
@@ -16,7 +20,9 @@ const Header = () => {
               alt='TECHWIZARDS'
               width={180}
               height={20}
+              onClick={() => { router.push('/home') }}
             />
+
           </div>
           <div className={styles.linksContainer}>
             <Link href="/about">
