@@ -82,7 +82,7 @@ const page = () => {
             style={{ zIndex: 2 }}
           />
         </div>
-       <div sty>
+       <div>
           <Image
             src={`${basePath}/designCurve.png`}
             alt='.'
